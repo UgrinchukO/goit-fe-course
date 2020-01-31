@@ -1,0 +1,69 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before
+*::after {
+    box-sizing:inherit;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+ .wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background-color: lightseagreen;
+}
+
+ header{
+     height: 190px;
+ }
+
+ .site_navigation {
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 165px;
+    
+}
+ 
+ .site_navigation li {
+     display: inline-block;
+     margin-top: 75px;   
+     text-transform: uppercase;
+     text-decoration: none;
+ }
+
+ .site_navigation li:not(:last-child){
+     margin-right: 100px;
+ }
+
+ .site_navigation li a {
+     font-family: Playfair Display;
+     color: #626262;
+     text-decoration: none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* li {
+display: list-item;
+text-align:-webkit-match-parent;
+} */
