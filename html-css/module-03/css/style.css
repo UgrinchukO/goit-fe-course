@@ -1,69 +1,63 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
-*::before
-*::after {
-    box-sizing:inherit;
+*::before *::after {
+  box-sizing: inherit;
 }
 
 body {
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Playfair Display', serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Playfair Display", serif;
 }
- .wrapper {
-    width: 900px;
-    margin: 0 auto;
-    background-color: lightseagreen;
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  /* background-color: lightseagreen; */
 }
 
- header{
-     height: 190px;
- }
+header {
+  height: 190px;
+}
 
- .site_navigation {
+.site_navigation {
+  font-size: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 165px;
+}
+
+.site_navigation li {
+  display: inline-block;
+  margin-top: 75px;
+}
+
+.site_navigation li:not(:last-child) {
+  margin-right: 100px;
+}
+
+.site_navigation a {
+  font-family: Playfair Display, Serif;
+  color: #626262;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site_navigation a:hover,
+.site_navigation a:focus {
+  color: green;
+}
+
+/* start item*/
+
+.item {
+    width: 421px;
+}
+
+.ubuntu {
     font-size: 14px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    margin-left: 165px;
-    
+    font-family: Ubuntu, Serif;
+    color: #626262;
 }
- 
- .site_navigation li {
-     display: inline-block;
-     margin-top: 75px;   
-     text-transform: uppercase;
-     text-decoration: none;
- }
-
- .site_navigation li:not(:last-child){
-     margin-right: 100px;
- }
-
- .site_navigation li a {
-     font-family: Playfair Display;
-     color: #626262;
-     text-decoration: none;
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* li {
-display: list-item;
-text-align:-webkit-match-parent;
-} */
