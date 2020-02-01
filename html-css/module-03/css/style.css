@@ -12,9 +12,9 @@ body {
   font-family: "Playfair Display", serif;
 }
 .wrapper {
-  width: 900px;
+  width: 901px;
   margin: 0 auto;
-  /* background-color: lightseagreen; */
+  background-color: lightseagreen;
 }
 
 header {
@@ -47,13 +47,14 @@ header {
 
 .site_navigation a:hover,
 .site_navigation a:focus {
-  color: green;
+  color:lightskyblue;
 }
 
 /* start item*/
 
 .item {
-    width: 421px;
+    width: 416px;
+    display: inline-block;
 }
 
 .ubuntu {
@@ -61,3 +62,24 @@ header {
     font-family: Ubuntu, Serif;
     color: #626262;
 }
+
+.item h2 {
+    font-size: 30px;
+    font-family: Playfair Display, Serif;
+    color: #626262;
+
+}
+
+.item p {
+    color: #626262;
+    font-size: 14px;
+    font-family: Playfair Display, Serif;
+}
+
+.coffee,
+.alps,
+.Winter {
+  padding-left: 60px;
+  margin-right: 0px;
+}
+
