@@ -14,12 +14,13 @@ body {
 .wrapper {
   width: 901px;
   margin: 0 auto;
-  background-color: lightseagreen;
 }
 
 header {
   height: 190px;
 }
+
+/* start site_navigation*/
 
 .site_navigation {
   font-size: 14px;
@@ -50,6 +51,8 @@ header {
   color:lightskyblue;
 }
 
+/*end start*/
+
 /* start item*/
 
 .item {
@@ -71,7 +74,7 @@ header {
 }
 
 .item p {
-    color: #626262;
+    color:#626262;
     font-size: 14px;
     font-family: Playfair Display, Serif;
 }
@@ -79,7 +82,18 @@ header {
 .coffee,
 .alps,
 .Winter {
-  padding-left: 60px;
+  margin-left: 60px;
   margin-right: 0px;
 }
 
+/*end item*/
+
+button {
+  color: #626262;
+  font-size: 20px;
+  font-family: Playfair Display, Serif;
+  background-color: white; 
+  margin: 57px 378px 70px 358px;
+  padding: 10px 33px 10px 33px;
+  border: 1px #626262 solid;
+}
