@@ -3,43 +3,37 @@ html {
 }
 
 *,
-*::before *::after {
+* ::before 
+* ::after {
   box-sizing: inherit;
 }
 
-body {
-  font-family: "Ubuntu", sans-serif;
-  font-family: "Playfair Display", serif;
-}
-.wrapper {
+.wrapper{
   width: 901px;
   margin: 0 auto;
 }
 
-header {
-  height: 190px;
-}
-
 /* start site_navigation*/
 
-.site_navigation {
+.site_navigation{
+  height: 190px;
   font-size: 14px;
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-left: 165px;
+  text-align: center;
 }
 
-.site_navigation li {
+.site_navigation li{
   display: inline-block;
   margin-top: 75px;
 }
 
-.site_navigation li:not(:last-child) {
+.site_navigation li:not(:last-child){
   margin-right: 100px;
 }
 
-.site_navigation a {
+.site_navigation a{
   font-family: Playfair Display, Serif;
   color: #626262;
   text-transform: uppercase;
@@ -47,33 +41,34 @@ header {
 }
 
 .site_navigation a:hover,
-.site_navigation a:focus {
-  color:lightskyblue;
+.site_navigation a:focus{
+  color:#03A9F4;
 }
 
 /*end start*/
 
 /* start item*/
 
-.item {
+.item{
     width: 416px;
     display: inline-block;
 }
 
-.ubuntu {
+.ubuntu{
     font-size: 14px;
     font-family: Ubuntu, Serif;
     color: #626262;
+    text-transform: uppercase;
 }
 
-.item h2 {
+.item h2{
     font-size: 30px;
     font-family: Playfair Display, Serif;
     color: #626262;
 
 }
 
-.item p {
+.item p{
     color:#626262;
     font-size: 14px;
     font-family: Playfair Display, Serif;
@@ -81,19 +76,20 @@ header {
 
 .coffee,
 .alps,
-.Winter {
+.Winter{
   margin-left: 60px;
   margin-right: 0px;
 }
 
 /*end item*/
 
-button {
+button{
   color: #626262;
   font-size: 20px;
   font-family: Playfair Display, Serif;
   background-color: white; 
-  margin: 57px 378px 70px 358px;
-  padding: 10px 33px 10px 33px;
+  width: 165px;
+  height: 60px;
   border: 1px #626262 solid;
+  
 }
