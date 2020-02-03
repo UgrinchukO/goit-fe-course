@@ -4,18 +4,18 @@ html {
 
 *,
 * ::before,
-* ::after{
+* ::after {
   box-sizing: inherit;
 }
 
-.container{
+.container {
   width: 910px;
   margin: 0 auto;
 }
 
 /* start site_navigation*/
 
-.site_navigation{
+.site_navigation {
   font-size: 14px;
   list-style: none;
   margin: 0;
@@ -23,17 +23,17 @@ html {
   text-align: center;
 }
 
-.site_navigation li{
+.site_navigation li {
   display: inline-block;
   margin-top: 78px;
   margin-bottom: 102px;
 }
 
-.site_navigation li:not(:last-child){
+.site_navigation li:not(:last-child) {
   margin-right: 100px;
 }
 
-.site_navigation a{
+.site_navigation a {
   font-family: Playfair Display, Serif;
   color: #626262;
   text-transform: uppercase;
@@ -41,37 +41,36 @@ html {
 }
 
 .site_navigation a:hover,
-.site_navigation a:focus{
-  color:#03A9F4;
+.site_navigation a:focus {
+  color: #03a9f4;
 }
 
 /*end site_navigation*/
 
 /* start item*/
 
-.item{
-    width: 420px;
-    display: inline-block;
+.item {
+  width: 420px;
+  display: inline-block;
 }
 
-.ubuntu{
-    font-size: 14px;
-    font-family: Ubuntu, Serif;
-    color: #626262;
-    text-transform: uppercase;
+.ubuntu {
+  font-size: 14px;
+  font-family: Ubuntu, Serif;
+  color: #626262;
+  text-transform: uppercase;
 }
 
-.item h2{
-    font-size: 30px;
-    font-family: Playfair Display, Serif;
-    color: #626262;
-
+.item h2 {
+  font-size: 30px;
+  font-family: Playfair Display, Serif;
+  color: #626262;
 }
 
-.item p{
-    color:#626262;
-    font-size: 14px;
-    font-family: Playfair Display, Serif;
+.item p {
+  color: #626262;
+  font-size: 14px;
+  font-family: Playfair Display, Serif;
 }
 
 .section_two,
@@ -88,15 +87,13 @@ html {
   margin-bottom: 0px;
 }
 
-
-
 /*end item*/
 
-button{
+button {
   color: #626262;
   font-size: 20px;
   font-family: Playfair Display, Serif;
-  background-color: white; 
+  background-color: white;
   width: 165px;
   height: 60px;
   display: block;
