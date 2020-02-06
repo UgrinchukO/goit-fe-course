@@ -36,7 +36,7 @@ html {
 }
 
 .site_navigation a {
-  font-family: Playfair Display, Serif;
+  font-family: "Playfair Display", Serif;
   color: #626262;
   text-transform: uppercase;
   text-decoration: none;
@@ -60,21 +60,21 @@ html {
 
 .ubuntu {
   font-size: 14px;
-  font-family: "Ubuntu";
-  color: rgb(180, 173, 158);
+  font-family: "Ubuntu",sans-serif;
+  color: #b4ad9e;
   text-transform: uppercase;
 }
 
 .item h2 {
   font-size: 30px;
-  font-family: Playfair Display, Serif;
+  font-family: "Playfair Display", Serif;
   color: #626262;
 }
 
 .item p {
   color: #626262;
   font-size: 14px;
-  font-family: Playfair Display, Serif;
+  font-family: "Playfair Display", Serif;
 }
 
 .section:nth-child(even) {
@@ -87,7 +87,7 @@ html {
 button {
   color: #626262;
   font-size: 20px;
-  font-family: Playfair Display, Serif;
+  font-family: "Playfair Display", Serif;
   background-color: white;
   width: 165px;
   height: 60px;
