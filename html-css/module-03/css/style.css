@@ -11,7 +11,7 @@ html {
 }
 
 .container {
-  width: 910px;
+  width: 905px;
   margin: 0 auto;
 }
 
@@ -54,12 +54,14 @@ html {
 .item {
   width: 420px;
   display: inline-block;
+  margin-right: 60px;
+  margin-bottom: 0px;
 }
 
 .ubuntu {
   font-size: 14px;
-  font-family: Ubuntu, Serif;
-  color: #626262;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
   text-transform: uppercase;
 }
 
@@ -75,17 +77,8 @@ html {
   font-family: Playfair Display, Serif;
 }
 
-.section_two,
-.section_four,
-.section_six {
+.section:nth-child(even) {
   margin-right: 0px;
-  margin-bottom: 0px;
-}
-
-.section_one,
-.section_three,
-.section_five {
-  margin-right: 60px;
   margin-bottom: 0px;
 }
 
@@ -101,6 +94,9 @@ button {
   display: block;
   margin: 0 auto;
   margin-top: 57px;
-  margin-bottom: 70px;
   border: 1px #110000 solid;
+}
+
+.click {
+  padding-bottom: 70px;
 }
