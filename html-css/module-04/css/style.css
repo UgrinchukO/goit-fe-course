@@ -14,3 +14,80 @@ html {
   width: 1110px;
   margin: 0 auto;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  padding-top: 36px;
+  margin-bottom: 105px;
+}
+
+/* Logo start*/
+.logo {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Roboto black", Serif;
+  color: #555252;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo::first-letter {
+  font-size: 30px;
+  font-family: "Roboto Light", Serif;
+  color: #1abc9c;
+}
+
+/*logo end*/
+
+/* Top menu start*/
+
+.top_menu {
+  margin: 0;
+  padding: 0;
+  width: 1021px;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+}
+.top_menu a {
+  font-size: 14px;
+  color: #0f0101;
+  font-family: "OpenSans Bold", Serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.top_menu li {
+  display: inline-block;
+  list-style: none;
+}
+
+.top_menu li:not(:last-child) {
+  margin-right: 35px;
+}
+
+.top_menu a:hover,
+.top_menu a:focus {
+  color: #1abc9c;
+}
+
+/*Top menu end*/
+
+/*start main*/
+.title h2 {
+  color: #515151;
+  font-size: 48px;
+  font-family: "Roboto Black", Serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+
