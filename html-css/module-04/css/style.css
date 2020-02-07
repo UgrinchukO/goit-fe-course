@@ -26,6 +26,12 @@ nav {
   margin-bottom: 105px;
 }
 
+.clearfix::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
 /* Logo start*/
 .logo {
   font-size: 30px;
@@ -50,11 +56,10 @@ nav {
 .top_menu {
   margin: 0;
   padding: 0;
-  width: 1021px;
-  display: inline-block;
-  text-align: right;
-  vertical-align: middle;
+  float: right;
+  margin-top:13px;
 }
+
 .top_menu a {
   font-size: 14px;
   color: #0f0101;
@@ -64,12 +69,12 @@ nav {
 }
 
 .top_menu li {
-  display: inline-block;
-  list-style: none;
+  float: left;
+  list-style-type: none;
 }
 
 .top_menu li:not(:last-child) {
-  margin-right: 35px;
+  margin-right: 25px;
 }
 
 .top_menu a:hover,
@@ -87,6 +92,56 @@ nav {
   text-align: center;
   text-transform: uppercase;
 }
+
+.title::after {
+  content: '';
+  display: block;
+  width: 167px;
+  margin: 0 auto;
+  height: 7px;
+  background: #1abc9c;
+}
+
+/*end title*/
+
+/* start page product*/
+
+.page_product {
+  margin: 0;
+  padding: 0;
+  background-color: #e9f0fd;
+  display:inine-block;
+  width: 255px;
+  height: 282px;
+}
+
+.inform {
+  line-height: 40px;
+  text-align: center;
+}
+
+.inform h3 {
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family:"Roboto Black", Serif;
+  float: left;
+  background-color:#323232;
+  text-transform: uppercase;
+  width: 255px;
+  height: 40px;
+}
+
+.inform span {
+  background-color:#8c8c8c;
+  float: right;
+  width: 54px;
+  height: 40px;
+  margin-left: 12px;
+}
+
+
 
 
 
