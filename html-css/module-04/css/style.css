@@ -18,7 +18,6 @@ html {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
 }
 
 nav {
@@ -26,13 +25,14 @@ nav {
   margin-bottom: 105px;
 }
 
-.clearfix::after{
+.clearfix::after {
   display: table;
   content: "";
   clear: both;
 }
 
 /* Logo start*/
+
 .logo {
   font-size: 30px;
   text-transform: uppercase;
@@ -57,13 +57,14 @@ nav {
   margin: 0;
   padding: 0;
   float: right;
-  margin-top:13px;
+  margin-top: 13px;
 }
 
 .top_menu a {
   font-size: 14px;
   color: #0f0101;
-  font-family: "OpenSans Bold", Serif;
+  font-family: "OpenSans", Serif;
+  font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -94,7 +95,7 @@ nav {
 }
 
 .title::after {
-  content: '';
+  content: "";
   display: block;
   width: 167px;
   margin: 0 auto;
@@ -110,13 +111,14 @@ nav {
   margin: 0;
   padding: 0;
   background-color: #e9f0fd;
-  display:inine-block;
+  display: inline-block;
   width: 255px;
   height: 282px;
+  
 }
 
 .inform {
-  line-height: 40px;
+  line-height: 44px;
   text-align: center;
 }
 
@@ -125,24 +127,28 @@ nav {
   padding: 0px;
   color: #ffffff;
   font-size: 18px;
-  font-family:"Roboto Black", Serif;
+  font-family: "Roboto Black", Serif;
+  font-weight: bold;
   float: left;
-  background-color:#323232;
+  background-color: #323232;
   text-transform: uppercase;
   width: 255px;
   height: 40px;
 }
 
 .inform span {
-  background-color:#8c8c8c;
+    background-color: #8c8c8c;
   float: right;
   width: 54px;
   height: 40px;
   margin-left: 12px;
 }
-
-
-
-
-
-
+ 
+ .wrap {
+   float: left;
+   margin-top: 92px;
+ }
+ 
+ .wrap:nth-child(odd) {
+ margin-left: 30px;
+ }
