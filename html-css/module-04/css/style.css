@@ -31,8 +31,11 @@ nav {
 }
 
 /* Logo start*/
-
 .logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo a {
   font-size: 30px;
   text-transform: uppercase;
   text-decoration: none;
@@ -42,7 +45,7 @@ nav {
   vertical-align: middle;
 }
 
-.logo::first-letter {
+.logo a::first-letter {
   font-size: 30px;
   font-family: "Roboto", Serif;
   color: #1abc9c;
@@ -56,7 +59,7 @@ nav {
   margin: 0;
   padding: 0;
   float: right;
-  margin-top: 13px;
+  line-height: 32px;
 }
 
 .top_menu a {
@@ -91,7 +94,8 @@ nav {
   font-family: "Roboto", Serif;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 105px;
+  margin: 0;
+  padding-top: 105px;
 }
 
 .title h2::after {
@@ -102,7 +106,7 @@ nav {
   height: 7px;
   background: #1abc9c;
   margin-top: 32px;
-  margin-bottom: 62px;
+  margin-bottom: 92px;
 }
 
 /*end title*/
@@ -116,21 +120,20 @@ nav {
 
 .wrap li {
   float: left;
-  margin: 30px 30px 0 0;
+  margin: 0px 30px 30px 0;
   list-style-type: none;
-  background-color: #323232
+  background-color: #323232;
+}
+
+.wrap li:nth-child(n + 4) {
+  margin-bottom: 0;
 }
 
 .page_product {
   background-color: #e9f0fd;
 }
 
-
-
 .inform {
-  float: left;
-  width: 255px;
-  height: 40px;
   font-size: 18px;
   line-height: 40px;
   text-transform: uppercase;
@@ -140,7 +143,6 @@ nav {
   margin: 0;
   padding: 0;
   float: left;
-  /* display: inline-block; */
 }
 
 .inform h3 a {
@@ -157,14 +159,13 @@ nav {
   float: right;
   font-size: 18px;
   font-family: "Roboto", Serif;
-  /* background-color: #8c8c8c; */
   background-color: rgba(255, 255, 255, 0.44);
   text-align: center;
   width: 54px;
-  height: 40px;
+  line-height: 42px;
 }
 
- .wrap li:hover {
+.wrap li:hover {
   background-color: #1abc9c;
 }
 
@@ -175,43 +176,44 @@ nav {
 /*end wrap*/
 
 /*start preview and text inform*/
+ul.wrapper {
+  margin: 0;
+  padding: 0;
+}
+
 .preview {
-  display:block;
+  display: block;
 }
 
 .text_inform {
   width: 350px;
 }
 
-.text_inform h3 {
+.text_inform {
   margin: 0;
   padding: 0;
   color: #555252;
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
   margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 .text_inform::after {
-  content:"";
+  content: "";
   display: block;
   width: 136px;
   height: 3px;
   background: #1abc9c;
+  margin-top: 15px;
   margin-bottom: 30px;
 }
 
 /*end preview and text inform*/
 
-
 /*start text inform two part*/
 
 .text_inform_two_part {
   width: 350px;
-}
-
-.text_inform_two_part p {
   margin: 0;
   padding: 0;
   color: #555252;
@@ -221,10 +223,11 @@ nav {
 }
 
 .click {
-  color:#ffffff;
+  display: inline-block;
+  color: #ffffff;
   font-size: 16px;
   font-family: "Open Sans";
-  background-color:#4ec6ab;
+  background-color: #4ec6ab;
   text-align: center;
   width: 160px;
   height: 51px;
@@ -232,14 +235,16 @@ nav {
   border-radius: 3px;
   margin-top: 19px;
   margin-bottom: 81px;
+  text-decoration: none;
+  line-height: 47px;
 }
 
-.wrapper {
+.wrapper li {
   float: left;
   margin-right: 30px;
 }
 
-.wrapper:nth-child(4n) {
+.wrapper li:last-child {
   margin-right: 0px;
 }
 
