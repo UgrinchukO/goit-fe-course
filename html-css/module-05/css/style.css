@@ -15,11 +15,11 @@ html {
   margin: 0 auto;
 }
 
-/* img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  } */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 nav {
   padding-top: 36px;
@@ -103,7 +103,7 @@ nav {
   display: block;
   width: 100%;
   height: auto;
-  /* background-color: #323232; */
+  background-color: #323232;
 }
 
 #overlay::after {
@@ -145,8 +145,8 @@ nav {
 }
 
 .text_pos {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
   font-family: "Roboto", Serif;
   font-weight: 300;
   font-size: 24px;
@@ -155,7 +155,7 @@ nav {
   text-decoration: none;
   text-transform: uppercase;
   text-align: left;
-  }
+}
 
 /*slider end*/
 
@@ -164,21 +164,111 @@ nav {
 .click_but {
   width: 104px;
   height: 104px;
-  background-color: rgb(78, 198, 171);
-  border: 1px solid rgb(78, 198, 171);
+  background-color: #1abc9c;
+  border: 1px solid #1abc9c;
   opacity: 65%;
   float: left;
   background-image: url(../icon/left.png);
-
 }
 
-.click_but.right{
- float: right;
- background-image: url(../icon/right.png);
+.click_but.right {
+  float: right;
+  background-image: url(../icon/right.png);
 }
 
-
-
-    
-  
 /* end click left and right*/
+
+/*start box_prod title*/
+
+.box_prod {
+  height: 676px;
+  background-color: #e9f0fd;
+}
+
+.title h2 {
+  padding: 0;
+  margin: 0;
+  color: #515151;
+  font-size: 48px;
+  font-family: "Roboto", Serif;
+  font-weight: 900;
+  padding-top: 101px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title h2::after {
+  content: "";
+  display: block;
+  width: 164px;
+  margin: 0 auto;
+  height: 7px;
+  background-color: #1abc9c;
+  margin-top: 34px;
+  margin-bottom: 80px;
+}
+
+/* end box_prod title*/
+
+/* start products*/
+.products {
+  margin: 0;
+  padding: 0;
+}
+
+.products li {
+  float: left;
+  width: 255px;
+  margin: 0px 30px 30px 0;
+  background-color: #ffffff;
+  list-style-type: none;
+}
+
+
+
+.inform {
+ background-color: #323232;
+}
+
+.inform h3 {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+
+.inform h3 a {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Roboto", Serif;
+  text-decoration: none;
+  line-height: 40px;
+  text-transform: uppercase;
+  padding-left: 14px;
+}
+
+.price {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Roboto", Serif;
+  background-color: #8c8c8c;
+  text-decoration: none;
+  line-height: 42px;
+  width: 54px;
+  float: right;
+  text-align: center;
+}
+
+.products li:hover,
+.products li:focus {
+  background-color: #1abc9c;
+}
+
+.products li:nth-child(4n) {
+  margin-right: 0;
+}
+
+
+/*end products*/
