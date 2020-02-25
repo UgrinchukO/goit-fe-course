@@ -135,6 +135,7 @@ nav {
   height: auto;
   padding-left: 60px;
   margin-bottom: 100px;
+  list-style: none;
 }
 
 .article_title h3 {
@@ -193,15 +194,16 @@ nav {
   background-image: url(../icon/IMAGE.png);
 }
 
-.article_title:nth-child(4n) {
-    margin-bottom: 0px;
-}
-
 .wrapper_art {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
+.wrapper_art li:nth-child(n + 4) {
+  margin-bottom: 0px;
+}
 
 /*start main*/
