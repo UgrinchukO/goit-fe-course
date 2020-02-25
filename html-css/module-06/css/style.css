@@ -127,7 +127,6 @@ nav {
   background-color: #f38181;
   margin-top: 42px;
   margin-bottom: 65px;
-
 }
 
 .article_title {
@@ -171,34 +170,38 @@ nav {
 }
 
 .article_title.alarm::before {
-    background-image: url(../icon/ALARM.png);
+  background-image: url(../icon/ALARM.png);
 }
 
 .article_title.graph::before {
-    background-image: url(../icon/LINE\ GRAPH.png);
+  background-image: url(../icon/GRAPH.png);
 }
 
 .article_title.computer::before {
-    background-image: url(../icon/COMPUTER\ _\ OK.png);
+  background-image: url(../icon/COMPUTER.png);
 }
 
 .article_title.book::before {
-    background-image: url(../icon/BOOK\ 2.png);
+  background-image: url(../icon/BOOK.png);
 }
 
 .article_title.home::before {
-    background-image: url(../icon/HOME.png);
+  background-image: url(../icon/HOME.png);
 }
 
 .article_title.square::before {
-    background-image: url(../icon/IMAGE.png);
+  background-image: url(../icon/IMAGE.png);
 }
 
+.article_title:nth-child(4n) {
+    margin-bottom: 0px;
+}
 
 .wrapper_art {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 
 /*start main*/
