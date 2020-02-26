@@ -206,4 +206,48 @@ nav {
   margin-bottom: 0px;
 }
 
+.content_text p {
+  font-size: 15px;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+}
+
+
+.photo {
+  width: 380px;
+  height: 470px;
+  position: relative;
+  background-color:saddlebrown;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 380px;
+  height: 470px;
+}
+
+.photo:hover .overlay {
+  background-image: -moz-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+  opacity: 90%;
+}
+
 /*start main*/
+
+
+
