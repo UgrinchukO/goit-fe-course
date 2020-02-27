@@ -51,6 +51,9 @@ nav {
   display: flex;
   font-size: 14px;
   justify-content: space-between;
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+
 }
 
 .top_menu a {
@@ -68,8 +71,8 @@ nav {
   list-style-type: none;
 }
 
-.top_menu li:hover,
-.top_menu li:focus {
+.top_menu li a:hover,
+.top_menu li a:focus {
   color: #f38181;
 }
 
@@ -80,10 +83,11 @@ nav {
   display: block;
   min-width: 100%;
   max-width: 100%;
-  border: 3px solid #f38181;
+  border: 2px solid #f38181;
   background-color: #f38181;
   opacity: 0;
 }
+
 .top_menu li a:hover:after {
   opacity: 1;
 }
@@ -255,10 +259,16 @@ nav {
     rgb(243, 129, 129) 100%
   );
   opacity: 90%;
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+
 }
 
 .photo:hover {
   transform: translate(-10px, -10px);
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+
 }
 
 .product {
@@ -267,9 +277,38 @@ nav {
   background-color: #95e1d3;
 }
 
-/*start main*/
+.product h3 {
+  color: #333333;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.product p {
+  color: #999999;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 83px;
+}
+
+.two_page:after {
+  content: "";
+  display: block;
+  width: 1200px; 
+  height: 1px;
+  background-color: #e5e5e5;
+  margin-top: 153px;
+}
+
+/*end main*/
 
 /*start icon*/
+
 .part_icon {
   margin: 0;
   padding: 0;
@@ -323,4 +362,66 @@ nav {
   background-color: #fce38a;
 } 
 
+/*end icon*/
 
+/*start footer*/
+
+.bottom_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 62px;
+}
+
+
+.text_bottom p {
+  color: #424242;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.link {
+  color: #f38181;
+  text-decoration: none;
+  
+}
+
+.area_form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+.area_form ::placeholder {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #d2d2d2;
+  padding-left: 12px;
+  
+}
+
+.area {
+  width: 380px;
+  height: 40px;
+  border: 1px solid #e7e7e7;
+}
+
+.btn {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  background-color:#95e1d3;
+  border: none;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-transform: uppercase;
+  top: 0;
+  right: 0;
+}
+
+/*end footer*/
