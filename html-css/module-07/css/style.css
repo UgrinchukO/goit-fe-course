@@ -54,8 +54,8 @@ img {
     /* Super Modern Browsers */
       url("../fonts/roboto-slab-v11-latin-regular.woff") format("woff"),
     /* Modern Browsers */ url("../fonts/roboto-slab-v11-latin-regular.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */
+      format("truetype");
+  /* Safari, Android, iOS */
 }
 
 /*start header*/
@@ -120,7 +120,7 @@ nav {
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 127px;
+  margin-top: 125px;
 }
 
 .title p {
@@ -172,7 +172,6 @@ nav {
   font-weight: 14px;
   font-weight: 400;
   text-align: center;
-  margin-bottom: 120px;
 }
 
 /* end part title and section*/
@@ -181,5 +180,60 @@ nav {
 /*start footer*/
 
 .bottom_part {
-    background-image: url(../);
+  background-color: #222222;
+  height: 676px;
+  background-image: url(../icon/Map\ Image.png);
+  background-repeat: no-repeat;
+  background-position: 820px 120px;
+}
+
+.foot h2 {
+  color: #fff;
+  padding-top: 120px;
+ 
+}
+
+.frm_foot {
+  display: flex;
+  margin-top: 75px;
+  justify-content: space-between;
+
+
+
+}
+
+input {
+  display: block;
+  /* line-height: 30px; */
+}
+
+textarea {
+    width: 457px;
+    height: 210px;
+    border-radius:3px;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-top: 17px;
+    resize: none;
+
+
+}
+
+input[type="text"],
+input[type="mail"] {
+    width: 457px;
+    height: 52px;
+    border-radius:3px;
+    border: none;
+    margin-bottom: 27px;
+    color:#bbbbbb;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-left: 20px;
 }
