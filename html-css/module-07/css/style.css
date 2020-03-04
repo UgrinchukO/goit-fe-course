@@ -4,6 +4,11 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 *,
 *::after,
 *::before {
@@ -27,8 +32,7 @@ img {
   font-weight: 400;
   src: local("Montserrat Regular"), local("Montserrat-Regular"),
     url("../fonts/montserrat-v14-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/montserrat-v14-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("../fonts/montserrat-v14-latin-regular.woff") format("woff"); 
 }
 
 @font-face {
@@ -37,8 +41,7 @@ img {
   font-weight: 700;
   src: local("Montserrat Bold"), local("Montserrat-Bold"),
     url("../fonts/montserrat-v14-latin-700.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/montserrat-v14-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("../fonts/montserrat-v14-latin-700.woff") format("woff"); 
 }
 
 @font-face {
@@ -47,8 +50,7 @@ img {
   font-weight: 400;
   src: local(""),
     url("../fonts/roboto-slab-v11-latin-regular.woff2") format("woff2"),
-    /* Super Modern Browsers */
-      url("../fonts/roboto-slab-v11-latin-regular.woff") format("woff");
+    url("../fonts/roboto-slab-v11-latin-regular.woff") format("woff");
 }
 
 @font-face {
@@ -57,8 +59,7 @@ img {
   font-weight: 400;
   src: local("Cookie-Regular"),
     url("../fonts/cookie-v11-latin-regular.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../fonts/cookie-v11-latin-regular.woff")
-      format("woff"); /* Modern Browsers */
+    url("../fonts/cookie-v11-latin-regular.woff")  format("woff"); 
 }
 
 
@@ -67,8 +68,8 @@ img {
     font-style: normal;
     font-weight: 700;
     src: local('Alegreya Bold'), local('Alegreya-Bold'),
-         url('../fonts/alegreya-v13-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/alegreya-v13-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/alegreya-v13-latin-700.woff2') format('woff2'), 
+         url('../fonts/alegreya-v13-latin-700.woff') format('woff');
   }
 
 /*start header*/
@@ -168,7 +169,19 @@ nav {
 }
 
 .article_title::before {
-  background-image: url(../icon/Icon-Basket.png);
+  background-image: url(../icon/icon_basket.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.article_title:nth-of-type(n+2)::before {
+  background-image: url(../icon/icon_laptop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.article_title:nth-of-type(n+3)::before {
+  background-image: url(../icon/icon_locked.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -195,11 +208,13 @@ nav {
 /*start footer*/
 
 .bottom_part {
+  margin: 0;
+  padding: 0;
   background-color: #222222;
   height: 656px;
-  background-image: url(../icon/Map\Image.png);
+  background-image: url(../icon/map_image.png);
   background-repeat: no-repeat;
-  background-position: 820px 120px;
+  background-position: 740px 120px;
 }
 
 .foot h2 {
