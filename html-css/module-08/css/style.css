@@ -29,16 +29,10 @@ img {
 
 }
 
-.container {
-    margin: 0 auto;
-
-}
 
 span {
     display: block;
 }
-
-
 
 /*start header*/
 
@@ -146,9 +140,9 @@ li .click:focus {
     transform: translate(-50%, -50%);
     width: 280px;
     height: 40px;
-    background: none;
+    /* background: none; */
     background-color: #ff4e50;
-    border: 1px solid #ff4e50;
+    border: none;
     border-radius: 30px;
     color: #fff;
     font-size: 14px;
@@ -250,7 +244,7 @@ li .click:focus {
     width: 280px;
     height: 40px;
     margin: 0 auto;
-    background: none;
+    /* background: none; */
     background-color: #fff;
     border: 2px solid #ff4e50;
     border-radius: 30px;
