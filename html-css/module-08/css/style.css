@@ -90,17 +90,22 @@ li .click:focus {
   border-radius: 30px;
 }
 
-.logo h3 {
+.logo {
   margin: 0;
   padding: 0;
-  color: #fff;
   font-size: 20px;
   font-family: "Montserrat";
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
   padding-top: 130px;
-  cursor: pointer;
+}
+
+.logo a {
+  color: #fff;
+
+  text-decoration: none;
+
 }
 
 .top_page h2 {
