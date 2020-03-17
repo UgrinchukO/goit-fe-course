@@ -37,23 +37,23 @@ span {
   min-width: 320px;
   max-width: 2400px;
   margin: 0 auto;
-  /* height: auto;
-  background-color: coral; */
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
+
 }
 
+
 .col-1 {
-  flex-basis: 8, 3333%;
-  max-width: 8, 3333%;
+  flex-basis: 8,3333%;
+  max-width: 8,3333%;
 }
 
 .col-2 {
-  flex-basis: 16, 6667%;
-  max-width: 16, 6667%;
+  flex-basis: 16,6667%;
+  max-width: 16,6667%;
 }
 
 .col-3 {
@@ -62,13 +62,13 @@ span {
 }
 
 .col-4 {
-  flex-basis: 33, 3333%;
-  max-width: 33, 3333%;
+  flex-basis: 33,3333%;
+  max-width: 33,3333%;
 }
 
 .col-5 {
-  flex-basis: 41, 6667%;
-  max-width: 41, 6667%;
+  flex-basis: 41,6667%;
+  max-width: 41,6667%;
 }
 
 .col-6 {
@@ -77,13 +77,13 @@ span {
 }
 
 .col-7 {
-  flex-basis: 58, 3333%;
-  max-width: 58, 3333%;
+  flex-basis: 58,3333%;
+  max-width: 58,3333%;
 }
 
 .col-8 {
-  flex-basis: 66, 6667%;
-  max-width: 66, 6667%;
+  flex-basis: 66,6667%;
+  max-width: 66,6667%;
 }
 
 .col-9 {
@@ -92,13 +92,13 @@ span {
 }
 
 .col-10 {
-  flex-basis: 83, 3333%;
-  max-width: 83, 3333%;
+  flex-basis: 83,3333%;
+  max-width: 83,3333%;
 }
 
 .col-11 {
-  flex-basis: 91, 6667%;
-  max-width: 91, 6667%;
+  flex-basis: 91,6667%;
+  max-width: 91,6667%;
 }
 
 .col-12 {
@@ -171,6 +171,7 @@ li .click:focus {
 .logo a {
   color: #fff;
   text-decoration: none;
+
 }
 
 .top_page h2 {
@@ -194,6 +195,7 @@ li .click:focus {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .top_page p {
@@ -209,7 +211,7 @@ li .click:focus {
 
 .btn {
   position: absolute;
-  top: 75%;
+  top: 120%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 280px;
@@ -227,7 +229,7 @@ li .click:focus {
 
 /*start main*/
 
-.wrapper h2 {
+h2.title_card{
   margin: 0;
   padding: 0;
   color: #333333;
@@ -238,11 +240,11 @@ li .click:focus {
   padding-top: 65px;
 }
 
-.wrap_people {
+/* .wrap_people {
   width: 191px;
   margin: 0 auto;
   position: relative;
-}
+} */
 
 .icon {
   margin: 0;
@@ -378,7 +380,7 @@ li .click:focus {
   }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 960px){
   .logo {
     position: absolute;
     top: -85px;
