@@ -134,11 +134,9 @@ li .click:focus {
 }
 
 .btn {
-  position: absolute;
-  top: 120%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: block;
   width: 280px;
+  margin: 0 auto;
   height: 40px;
   background-color: #ff4e50;
   border: none;
@@ -147,6 +145,7 @@ li .click:focus {
   font-size: 14px;
   font-family: "Montserrat";
   font-weight: 700;
+  margin-top: 20px;
 }
 
 /*end header*/
@@ -236,7 +235,6 @@ h2.title_card {
   width: 280px;
   height: 40px;
   margin: 0 auto;
-  /* background: none; */
   background-color: #fff;
   border: 2px solid #ff4e50;
   border-radius: 30px;
