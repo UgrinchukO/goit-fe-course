@@ -1,0 +1,158 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+
+  .container {
+      width: 1200px;
+      margin: 0 auto;
+  }
+  
+  .img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+  }
+ 
+  .link{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  span{
+      display: block;
+  }
+
+
+
+/*start header*/
+  .top_part {
+      background-image:url(../img/banner.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 1120px;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        text-decoration: none;
+        list-style-type: none;
+        color: #FFF;
+        font-family: "Montserrat";
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+
+    .site_navigation {
+        display: flex;
+        width: 610px;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    .site_navigation__item {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    .site_navigation__item:not(.ico):hover::after{
+        margin: 0;
+        padding: 0;
+        content: "";
+        display: block;
+        width: auto;
+        height: 3px;
+        background-color: #fce38a;
+    }
+
+    .site_navigation__link:hover {
+        color: #fce38a;
+    }
+
+    .site_navigation__link svg:hover {
+        fill: #fce38a;
+    }
+
+
+    .site_navigation__link {
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .site_navigation__link svg{
+        fill: #fff;
+        display: block;
+        width: 18px;
+        height: 18px;
+    }
+
+    .main_title h2 {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-family: "Kaushan Script";
+        font-size: 72px;
+        font-weight: 400;
+        margin-top: 185px;
+        text-align: center;
+    }
+
+    .main_title h1 {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-family: "Montserrat";
+        font-size: 150px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 44px;
+    }
+
+
+    .btn {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 160px;
+        height: 40px;
+        border: none;
+        background: none;
+        border: 3px solid #fff;
+        margin: 0 auto;
+        margin-top: 126px;
+        margin-bottom: 230px;
+
+    }
+
+    .btn__link {
+        color: #fff;
+        text-decoration: none;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+}

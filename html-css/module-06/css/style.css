@@ -263,7 +263,6 @@ span {
     rgba(252, 227, 138, 0.9) 0%,
     rgba(243, 129, 129, 0.9) 100%
   );
-  /* opacity: 90%; */
   transition-timing-function: linear;
   transition-duration: 200ms;
 }
