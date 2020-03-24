@@ -40,6 +40,12 @@ span {
   height: 1120px;
 }
 
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .top_part {
+    background-image: url(../img/banner@2x.jpg);
+  }
+}
+
 nav {
   display: flex;
   justify-content: space-between;
