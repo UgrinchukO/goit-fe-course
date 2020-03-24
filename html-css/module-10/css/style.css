@@ -305,6 +305,25 @@ svg.function__icon-image {
   transition-duration: 200ms;
 }
 
+.list__icon-text {
+  color: #333333;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.list__icon-subtext {
+  color: #999999;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 83px;
+}
+
 .list__photo:hover {
   transform: translate(-10px, -10px);
   transition-timing-function: linear;
@@ -358,5 +377,69 @@ svg.function__icon-image {
   transition-timing-function: linear;
   transition-duration: 200ms;
 }
-
 /*end main*/
+
+/*start footer*/
+.bottom-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 62px;
+}
+
+.bottom-part__text {
+  color: #424242;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.bottom-part__link {
+  color: #f38181;
+  text-decoration: none;
+}
+
+.area-form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.area-form__mail::placeholder {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #d2d2d2;
+  padding-left: 12px;
+}
+
+.area-form__mail {
+  width: 380px;
+  height: 40px;
+  border: 1px solid #e7e7e7;
+}
+
+.area-form__click {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  background-color: #95e1d3;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-transform: uppercase;
+  top: 0;
+  right: 0;
+}
+
+.line:after {
+  content: "";
+  display: block;
+  width: 1200px;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin-top: 153px;
+}
+/*end footer*/
