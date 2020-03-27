@@ -1,0 +1,47 @@
+.area-form {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+ 
+  .area-form__mail {
+    width: 380px;
+    height: 40px;
+    border: 1px solid $form-text-color;
+
+    &::placeholder {
+      font-size: 15px;
+      font-family: "Roboto";
+      font-weight: 300;
+      color: $form-text-color;
+      padding-left: 12px;
+    }
+  }
+
+  .area-form__click {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background-color: $svg-main-fill;
+    border: none;
+    color: $primary-white-color;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-transform: uppercase;
+    top: 0;
+    right: 0;
+  }
+  
+  .line:after {
+    content: "";
+    display: block;
+    width: 1200px;
+    height: 1px;
+    background-color: $line-bottom-color;
+    margin-top: 153px;
+  }
+
+
+
+  
