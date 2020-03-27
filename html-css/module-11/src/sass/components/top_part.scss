@@ -1,0 +1,14 @@
+.top_part {
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1120px;
+  }
+  
+  @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .top_part {
+      background-image: url(../images/banner@2x.jpg);
+    }
+
+  }    

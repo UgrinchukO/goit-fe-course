@@ -147,16 +147,18 @@ nav {
   margin: 0 auto;
   margin-top: 126px;
   margin-bottom: 230px;
-}
-
-.btn__link {
-  color: #fff;
-  text-decoration: none;
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 700;
+  color: #fff;
+  text-decoration: none;
   text-transform: uppercase;
   text-align: center;
+}
+
+.link-btn {
+  text-decoration: none;
+ 
 }
 
 /*start main*/

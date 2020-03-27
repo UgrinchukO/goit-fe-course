@@ -1,0 +1,22 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+@import 'helpers/variables';
+
+@import 'normalize.scss';
+@import 'base';
+
+
+/*Components*/
+@import 'components/link';
+@import 'components/container';
+@import 'components/top_part';
+@import 'components/span.scss';
+@import 'components/nav.scss';
+@import 'components/logo';
+@import 'components/site_navigation';
+@import 'components/main_title';
+@import 'components/btn';
+@import 'components/bloc';
+@import 'components/function';
+// @import 'components/';
